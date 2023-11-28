@@ -1,0 +1,127 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width:100%;
+    background-color:rgb(105, 105, 105);
+    background:#14b54f;
+    display:flex;
+    position:sticky;
+    top:0px;
+}
+.sub-co{
+    position:absolute;
+    right:20px;
+    top:30px;
+}
+.sub-co img{
+    margin:0 15px;
+}
+.wrapper{
+    min-height:100vh;
+    box-sizing:border-box;
+}
+.box{
+    display:flex;
+    flex-wrap: wrap;
+}
+#box1, #box2, #box3{
+    position:relative;
+    position:sticky;
+    top:90px;
+
+}
+.box label{
+    min-width:30.3%;
+    background:#14b54f;
+    color:rgb(217, 197, 197);
+    text-align: center;
+    order:1;
+    padding:16px;
+    display:block;
+    margin-right:4px;
+    cursor:pointer;
+}
+.box .content{
+    display:none;
+    padding:30px;
+    background:#fff;
+    order:2;
+}
+.box input[type="radio"]{
+    display:none;
+
+}
+.box input[type="radio"]:checked + label{
+    color:rgb(255, 255, 255);
+}
+.box input[type="radio"]:checked + label + .content{
+    
+    display:block;
+}
+.content p{
+    color:rgb(20, 20, 21);
+}
+.chat-box{
+    display:flex;
+    width:1260px;
+}
+.chat-box p{
+    line-height:15px;
+}
+.chat-box img{
+    margin:15px 15px 0px 10px;
+}
+.content-box{
+    line-height:2px;
+}
+.chat-box:hover{
+    background-color: rgba(143, 137, 131, 0.5);
+}
+#time{
+    margin-top:20px;
+    position:absolute;
+    right:70px;
+}
+
+
+.camera-box{
+    background-color:#14b54f;
+    /* width:50px;
+    height:50px; */
+    border-radius: 16px;
+    position:fixed;
+    right:40px;
+    bottom:30px;
+}
+.camera-box img{
+    padding:10px 10px 5px 10px;
+    width:25px ;
+    height:25px;
+}
+.status{
+    display:flex;
+}
+.status img{
+    margin:20px 10px 0px 0px;
+}
+.status-content{
+    line-height:5px;
+    width:1200px;
+    margin:5px;
+}
+.status:hover{
+    background-color:rgb(210, 206, 206);
+}
+.content hr{
+    width:1270px;
+}
+.my-status img{
+    margin-left:10px;
+}
+.my-status p{
+    line-height:0px;
+}
+#recent{
+    color:rgb(125, 124, 122);
+}
